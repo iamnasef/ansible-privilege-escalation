@@ -12,7 +12,7 @@ shell.yml is an ansible playbook you can use to make linux privilege escalation 
 
 ## How To Use
 
-1. Run ``` sudo /usr/bin/ansible-playbook shell.yml```\
+1. Run ``` sudo /usr/bin/ansible-playbook shell.yml```
 2. Run ```./bash -p```
 
 
